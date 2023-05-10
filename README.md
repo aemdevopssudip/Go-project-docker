@@ -15,10 +15,7 @@ $ docker build -t mathapp-development .
 Run container:
 
 ```bash
-$ docker run -it --rm \
-    -p 8010:8010 \
-    -v $PWD/src:/go/src/mathapp \
-    mathapp-development
+$ docker run -it --name my-container -p 8080:8010 mathapp-development
 ```
 
 ## License
