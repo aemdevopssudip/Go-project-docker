@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
         - name: go-container
-          image: 392133049967.dkr.ecr.ap-northeast-1.amazonaws.com/sudip-11may-repo:latest
+          image: 392133049967.dkr.ecr.ap-northeast-1.amazonaws.com/sudip-27may-repo:mygoapp
           ports:
             - containerPort: 8010
